@@ -1,7 +1,7 @@
 ![Screenshot](screenshot.png)
 
 ### Install
-Download [readerself-notifier.safariextz](/readerself-notifier.safariextz)
+Download [http://readerself.com/readerself-notifier.safariextz](http://readerself.com/readerself-notifier.safariextz)
 
 ### Third party
 
