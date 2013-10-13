@@ -14,13 +14,13 @@ function changeHandler() {
 }
 function navigateHandler(event){
 	var url_target = event.target.url;
-	if(refresh_on_home) {
-		clearInterval(refresh_on_home);
-	}
 	if(url_settings.slice(-1) === '/') {
 		url_settings = url_settings.slice(0, -1);
 	}
 	if(url_target.indexOf(url_settings + '/home') != -1) {
+		if(refresh_on_home) {
+			clearInterval(refresh_on_home);
+		}
 		refresh_on_home = setInterval('_update()', 5000);
 	}
 }
