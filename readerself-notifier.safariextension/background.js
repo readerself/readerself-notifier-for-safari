@@ -47,11 +47,7 @@ function _update() {
 					title = 'You have no unread items';
 					colorCode = 'gray'
 				}
-				if(data.unread > 999) {
-					badgeText = '999+';
-				} else {
-					badgeText = data.unread;
-				}
+				badgeText = data.unread;
 			} else {
 				title = 'You are not connected';
 				badgeText = '!';
